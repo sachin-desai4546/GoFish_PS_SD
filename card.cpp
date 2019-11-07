@@ -1,6 +1,5 @@
-//File Name: card.h
+//File Name: card.cpp
 //
-//Written by Owen Astrachan and Roger Priebe
 // This class represents a playing card, i.e., "ace of spades"
 // a Card is constructed from a rank (int in range 1..13)
 // and a suit (Card::spades, Card::hearts, Card::diamonds,
@@ -19,48 +18,98 @@
 // string suitString() -- returns "s", "h", "d" or "c"
 //
 // Note that the Ace is represented by 1 and the King by 13
-
-#ifndef _CARD_H
-#define _CARD_H
-
 #include <iostream>
 #include <string>
+#include "card.h"
 using namespace std;
 
-class Card
-{
-public:
+// default, ace of spades
+Card::Card(){
+    myRank = 1;
+    mySuit = spades;
+}
 
+Card::Card(int rank, Suit s){
+    myRank = rank;
+    mySuit = s;
+}
 
-    enum Suit {spades, hearts, diamonds, clubs};
+// return string version e.g. Ac 4h Js
+string Card::toString() const {
+    return(suitString(mySuit) + rankString(myRank));
+}
 
-    Card();          // default, ace of spades
+// true if suit same as c
+bool Card::sameSuitAs(const Card& c) const {
+    if (mySuit == c.mySuit){
+        return true;
+    }
+    return false;
+}
 
-    Card(int rank, Suit s);
+// return rank, 1..13
+int Card::getRank() const {
+    return(myRank);
+}
 
-    string toString()              const;  // return string version e.g. Ac 4h Js
-    bool sameSuitAs(const Card& c) const;  // true if suit same as c
-    int  getRank()                 const;  // return rank, 1..13
-    string suitString(Suit s)      const;  // return "s", "h",...
+// return "s", "h",...
+string Card::suitString(Suit s) const {
+    if (s == spades) {
+        return ("s");
+    } else if (s == hearts) {
+        return ("h");
+    } else if (s == diamonds) {
+        return ("d");
+    }
+    return ("c");
+}
 
-    string rankString(int r)       const;  // return "A", "2", ..."Q"
+// return "A", "2", ..."Q"
+string Card::rankString(int r) const {
+    if (r == 1) {
+        return ("A");
+    } else if (r == 2) {
+        return ("2");
+    } else if (r == 3) {
+        return ("3");
+    } else if (r == 4) {
+        return ("4");
+    } else if (r == 5) {
+        return ("5");
+    } else if (r == 6) {
+        return ("6");
+    } else if (r == 7) {
+        return ("7");
+    } else if (r == 8) {
+        return ("8");
+    } else if (r == 9) {
+        return ("9");
+    } else if (r == 10) {
+        return ("10");
+    } else if (r == 11) {
+        return ("J");
+    } else if (r == 12) {
+        return ("Q");
+    } else if (r == 13) {
+        return ("K");
+    }
+    return ("0");
+}
+// overload operator functions listed below
+bool Card::operator == (const Card& rhs) const{
+    return(myRank == rhs.myRank);
+}
+bool Card::operator != (const Card& rhs) const{
+    return(myRank != rhs.myRank);
+}
 
+void Card::operator = (const Card& rhs){
+    myRank = rhs.myRank;
+    mySuit = rhs.mySuit;
+    return;
+}
+//ostream& operator << (ostream& out, const Card &c){
+//    out << c.get
+//}
 
-    bool operator == (const Card& rhs) const;
-    bool operator != (const Card& rhs) const;
-
-
-
-private:
-
-    int myRank;
-    Suit mySuit;
-
-
-};
-
-ostream& operator << (ostream& out, const Card& c);
-
-
-
-#endif
+Card::~Card();

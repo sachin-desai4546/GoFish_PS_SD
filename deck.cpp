@@ -13,30 +13,70 @@
 //
 // Calling shuffle again replenishes the deck with 52 cards.
 
-#ifndef _DECK_H
-#define _DECK_H
-
 #include "card.h"
+#include "deck.h"
+#include <cstdlib>
+#include <ctime>
 
-
-class Deck
-{
-    static const int SIZE = 52;
-
-public:
-
-
-    Deck();           // pristine, sorted deck
-
-    void shuffle();   // shuffle the deck, all 52 cards present
-    Card dealCard();   // get a card, after 52 are dealt, fail
-
-    int  size() const; // # cards left in the deck
-
-private:
-
+// pristine, sorted deck
+Deck::Deck(){
+    srand(time(0));
+    myIndex = 0;
     Card myCards[SIZE];
-    int myIndex;  // current card to deal
-};
+    for (int i = 0; i < 4; i++) {
+        Card::Suit x;
+        if(i == 0){
+            x = Card::spades;
+        }
+        if(i == 1){
+            x = Card::hearts;
+        }
+        if(i == 2){
+            x = Card::diamonds;
+        }
+        if(i == 3){
+            x = Card::clubs;
+        }
+        for (int j = i*13; j < (((i+1)*13)-1); j++){
+            if((j+1)%13 == 0){
+                myCards[j] = Card(13, x);
+            } else {
+                myCards[j] = Card(((j+1)%13), x);
+            }
+        }
+    }
+}
 
-#endif
+// shuffle the deck, all 52 cards present
+void Deck::shuffle(){
+    int count = 52;
+    for(int i = 0; i < (count*5); i++){
+        int randNum1 = (rand() % count);
+        int randNum2 = (rand() % count);
+        Card temp = myCards[randNum1];
+        myCards[randNum1] = myCards[randNum2];
+        myCards[randNum2] = temp;
+    }
+}
+
+// get a card, after 52 are dealt, fail
+Card Deck::dealCard(){
+    Card temp;
+    temp = myCards[myIndex];
+    if(myIndex < 52){
+        myIndex++;
+        return temp;
+    } else {
+        Card fail = Card(14, Card::spades);
+        return fail;
+    }
+}
+
+// # cards left in the deck
+int Deck::size() const {
+    return (52 - myIndex);
+}
+
+Deck::~Deck(){
+
+}
