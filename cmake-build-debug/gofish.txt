@@ -1,0 +1,355 @@
+Philip's hand : Qh 6s 10d 5d 6c 2c 2s 
+Sachin's hand : 5s 8s 3h 7h Js 10h Qc 
+-------------------
+Philip's books : 6s 6c 2c 2s 
+Sachin's books : 
+-------------------
+Phil: Do you have any : 5's
+Sachin: Yes
+Philip's hand : Qh 10d 5d 5s 
+Sachin's hand : 8s 3h 7h Js 10h Qc 
+Philip's books : 6s 6c 2c 2s 5d 5s 
+-------------------
+Phil: Do you have any : Q's
+Sachin: Yes
+Philip's hand : Qh 10d Qc 
+Sachin's hand : 8s 3h 7h Js 10h 
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 
+-------------------
+Phil: Do you have any : 10's
+Sachin: Yes
+Philip's hand : 10d 10h 
+Sachin's hand : 8s 3h 7h Js 
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 
+Phil: My hand is empty, I'll draw one
+-------------------
+Sachin: Do you have any : 8's
+Phil: Go Fish!
+Sachin draws 9s
+Philip's hand : Kc 
+Sachin's hand : 8s 3h 7h Js 9s 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 
+Sachin's books : 
+-------------------
+Phil: Do you have any : K's
+Sachin: Go Fish!
+Phil draws 2h
+Philip's hand : Kc 2h 
+-------------------
+Sachin: Do you have any : 3's
+Phil: Go Fish!
+Sachin draws 2d
+Philip's hand : Kc 2h 
+Sachin's hand : 8s 3h 7h Js 9s 2d 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 
+Sachin's books : 
+-------------------
+Phil: Do you have any : 2's
+Sachin: Yes
+Philip's hand : Kc 2h 2d 
+Sachin's hand : 8s 3h 7h Js 9s 
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d 
+-------------------
+Phil: Do you have any : K's
+Sachin: Go Fish!
+Phil draws 8d
+Philip's hand : Kc 8d 
+-------------------
+Sachin: Do you have any : 8's
+Phil: Yes
+Philip's hand : Kc 
+Sachin's hand : 8s 3h 7h Js 9s 8d 
+Sachin's books : 8s 8d 
+-------------------
+Sachin: Do you have any : J's
+Phil: Go Fish!
+Sachin draws Qd
+Philip's hand : Kc 
+Sachin's hand : 3h 7h Js 9s Qd 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d 
+Sachin's books : 8s 8d 
+-------------------
+Phil: Do you have any : K's
+Sachin: Go Fish!
+Phil draws 4s
+Philip's hand : Kc 4s 
+-------------------
+Sachin: Do you have any : Q's
+Phil: Go Fish!
+Sachin draws 3s
+Sachin's books : 8s 8d 3h 3s 
+Philip's hand : Kc 4s 
+Sachin's hand : 7h Js 9s Qd 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d 
+Sachin's books : 8s 8d 3h 3s 
+-------------------
+Phil: Do you have any : K's
+Sachin: Go Fish!
+Phil draws Kh
+Philip's hand : Kc 4s Kh 
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 
+-------------------
+Sachin: Do you have any : 9's
+Phil: Go Fish!
+Sachin draws 7d
+Sachin's books : 8s 8d 3h 3s 7h 7d 
+Philip's hand : 4s 
+Sachin's hand : Js 9s Qd 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 
+Sachin's books : 8s 8d 3h 3s 7h 7d 
+-------------------
+Phil: Do you have any : 4's
+Sachin: Go Fish!
+Phil draws 10c
+Philip's hand : 4s 10c 
+-------------------
+Sachin: Do you have any : Q's
+Phil: Go Fish!
+Sachin draws As
+Philip's hand : 4s 10c 
+Sachin's hand : Js 9s Qd As 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 
+Sachin's books : 8s 8d 3h 3s 7h 7d 
+-------------------
+Phil: Do you have any : 10's
+Sachin: Go Fish!
+Phil draws 6d
+Philip's hand : 4s 10c 6d 
+-------------------
+Sachin: Do you have any : A's
+Phil: Go Fish!
+Sachin draws 9c
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c 
+Philip's hand : 4s 10c 6d 
+Sachin's hand : Js Qd As 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c 
+-------------------
+Phil: Do you have any : 10's
+Sachin: Go Fish!
+Phil draws 5c
+Philip's hand : 4s 10c 6d 5c 
+-------------------
+Sachin: Do you have any : Q's
+Phil: Go Fish!
+Sachin draws 8c
+Philip's hand : 4s 10c 6d 5c 
+Sachin's hand : Js Qd As 8c 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c 
+-------------------
+Phil: Do you have any : 6's
+Sachin: Go Fish!
+Phil draws 4c
+Philip's hand : 4s 10c 6d 5c 4c 
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 
+-------------------
+Sachin: Do you have any : J's
+Phil: Go Fish!
+Sachin draws Jd
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd 
+Philip's hand : 10c 6d 5c 
+Sachin's hand : Qd As 8c 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd 
+-------------------
+Phil: Do you have any : 6's
+Sachin: Go Fish!
+Phil draws Jh
+Philip's hand : 10c 6d 5c Jh 
+-------------------
+Sachin: Do you have any : 8's
+Phil: Go Fish!
+Sachin draws 5h
+Philip's hand : 10c 6d 5c Jh 
+Sachin's hand : Qd As 8c 5h 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd 
+-------------------
+Phil: Do you have any : 5's
+Sachin: Yes
+Philip's hand : 10c 6d 5c Jh 5h 
+Sachin's hand : Qd As 8c 
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 
+-------------------
+Phil: Do you have any : 6's
+Sachin: Go Fish!
+Phil draws 9d
+Philip's hand : 10c 6d Jh 9d 
+-------------------
+Sachin: Do you have any : Q's
+Phil: Go Fish!
+Sachin draws 10s
+Philip's hand : 10c 6d Jh 9d 
+Sachin's hand : Qd As 8c 10s 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd 
+-------------------
+Phil: Do you have any : 9's
+Sachin: Go Fish!
+Phil draws Ad
+Philip's hand : 10c 6d Jh 9d Ad 
+-------------------
+Sachin: Do you have any : 8's
+Phil: Go Fish!
+Sachin draws 4h
+Philip's hand : 10c 6d Jh 9d Ad 
+Sachin's hand : Qd As 8c 10s 4h 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd 
+-------------------
+Phil: Do you have any : J's
+Sachin: Go Fish!
+Phil draws 7s
+Philip's hand : 10c 6d Jh 9d Ad 7s 
+-------------------
+Sachin: Do you have any : A's
+Phil: Yes
+Philip's hand : 10c 6d Jh 9d 7s 
+Sachin's hand : Qd As 8c 10s 4h Ad 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 
+-------------------
+Sachin: Do you have any : 10's
+Phil: Yes
+Philip's hand : 6d Jh 9d 7s 
+Sachin's hand : Qd 8c 10s 4h 10c 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c 
+-------------------
+Sachin: Do you have any : 8's
+Phil: Go Fish!
+Sachin draws Ah
+Philip's hand : 6d Jh 9d 7s 
+Sachin's hand : Qd 8c 4h Ah 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c 
+-------------------
+Phil: Do you have any : 6's
+Sachin: Go Fish!
+Phil draws Kd
+Philip's hand : 6d Jh 9d 7s Kd 
+-------------------
+Sachin: Do you have any : Q's
+Phil: Go Fish!
+Sachin draws 3d
+Philip's hand : 6d Jh 9d 7s Kd 
+Sachin's hand : Qd 8c 4h Ah 3d 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c 
+-------------------
+Phil: Do you have any : 9's
+Sachin: Go Fish!
+Phil draws Qs
+Philip's hand : 6d Jh 9d 7s Kd Qs 
+-------------------
+Sachin: Do you have any : 3's
+Phil: Go Fish!
+Sachin draws Ks
+Philip's hand : 6d Jh 9d 7s Kd Qs 
+Sachin's hand : Qd 8c 4h Ah 3d Ks 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c 
+-------------------
+Phil: Do you have any : 6's
+Sachin: Go Fish!
+Phil draws 6h
+Philip's hand : 6d Jh 9d 7s Kd Qs 6h 
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 6d 6h 
+-------------------
+Sachin: Do you have any : Q's
+Phil: Yes
+Philip's hand : Jh 9d 7s Kd 
+Sachin's hand : Qd 8c 4h Ah 3d Ks Qs 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c Qd Qs 
+-------------------
+Sachin: Do you have any : 4's
+Phil: Go Fish!
+Sachin draws 7c
+Philip's hand : Jh 9d 7s Kd 
+Sachin's hand : 8c 4h Ah 3d Ks 7c 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 6d 6h 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c Qd Qs 
+-------------------
+Phil: Do you have any : K's
+Sachin: Yes
+Philip's hand : Jh 9d 7s Kd Ks 
+Sachin's hand : 8c 4h Ah 3d 7c 
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 6d 6h Kd Ks 
+-------------------
+Phil: Do you have any : J's
+Sachin: Go Fish!
+Phil draws Jc
+Philip's hand : Jh 9d 7s Jc 
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 6d 6h Kd Ks Jh Jc 
+-------------------
+Sachin: Do you have any : 4's
+Phil: Go Fish!
+Sachin draws 3c
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c Qd Qs 3d 3c 
+Philip's hand : 9d 7s 
+Sachin's hand : 8c 4h Ah 7c 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 6d 6h Kd Ks Jh Jc 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c Qd Qs 3d 3c 
+-------------------
+Phil: Do you have any : 7's
+Sachin: Yes
+Philip's hand : 9d 7s 7c 
+Sachin's hand : 8c 4h Ah 
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 6d 6h Kd Ks Jh Jc 7s 7c 
+-------------------
+Phil: Do you have any : 9's
+Sachin: Go Fish!
+Phil draws 8h
+Philip's hand : 9d 8h 
+-------------------
+Sachin: Do you have any : 4's
+Phil: Go Fish!
+Sachin draws 4d
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c Qd Qs 3d 3c 4h 4d 
+Philip's hand : 9d 8h 
+Sachin's hand : 8c Ah 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 6d 6h Kd Ks Jh Jc 7s 7c 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c Qd Qs 3d 3c 4h 4d 
+-------------------
+Phil: Do you have any : 9's
+Sachin: Go Fish!
+Phil draws 9h
+Philip's hand : 9d 8h 9h 
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 6d 6h Kd Ks Jh Jc 7s 7c 9d 9h 
+-------------------
+Sachin: Do you have any : A's
+Phil: Go Fish!
+Sachin draws Ac
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c Qd Qs 3d 3c 4h 4d Ah Ac 
+Philip's hand : 8h 
+Sachin's hand : 8c 
+-------------------
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 6d 6h Kd Ks Jh Jc 7s 7c 9d 9h 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c Qd Qs 3d 3c 4h 4d Ah Ac 
+-------------------
+Phil: Do you have any : 8's
+Sachin: Yes
+Philip's hand : 8h 8c 
+Sachin's hand : 
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 6d 6h Kd Ks Jh Jc 7s 7c 9d 9h 8h 8c 
+Phil: There's no cards left to draw!
+Philip's books : 6s 6c 2c 2s 5d 5s Qh Qc 10d 10h 2h 2d Kc Kh 4s 4c 5c 5h 6d 6h Kd Ks Jh Jc 7s 7c 9d 9h 8h 8c 
+Sachin's books : 8s 8d 3h 3s 7h 7d 9s 9c Js Jd As Ad 10s 10c Qd Qs 3d 3c 4h 4d Ah Ac 
+Philip Wins!
