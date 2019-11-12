@@ -22,7 +22,6 @@
 Deck::Deck(){
     srand(time(0));
     myIndex = 0;
-    Card myCards[SIZE];
     for (int i = 0; i < 4; i++) {
         Card::Suit x;
         if(i == 0){
@@ -37,7 +36,7 @@ Deck::Deck(){
         if(i == 3){
             x = Card::clubs;
         }
-        for (int j = i*13; j < (((i+1)*13)-1); j++){
+        for (int j = i*13; j < (((i+1)*13)); j++){
             if((j+1)%13 == 0){
                 myCards[j] = Card(13, x);
             } else {
@@ -75,8 +74,4 @@ Card Deck::dealCard(){
 // # cards left in the deck
 int Deck::size() const {
     return (52 - myIndex);
-}
-
-Deck::~Deck(){
-
 }

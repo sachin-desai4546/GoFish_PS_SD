@@ -36,7 +36,7 @@ Card::Card(int rank, Suit s){
 
 // return string version e.g. Ac 4h Js
 string Card::toString() const {
-    return(suitString(mySuit) + rankString(myRank));
+    return(rankString(myRank) + suitString(mySuit));
 }
 
 // true if suit same as c
@@ -108,8 +108,7 @@ void Card::operator = (const Card& rhs){
     mySuit = rhs.mySuit;
     return;
 }
-//ostream& operator << (ostream& out, const Card &c){
-//    out << c.get
-//}
-
-Card::~Card();
+ostream& operator << (ostream& out, const Card &c){
+    out << c.toString();
+    return out;
+}

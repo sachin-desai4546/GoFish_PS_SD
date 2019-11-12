@@ -51,16 +51,14 @@ public:
     void operator = (const Card& rhs);
 
 
-
 private:
 
     int myRank;
     Suit mySuit;
 
-
 };
 
-//ostream& operator << (ostream& out, const Card& c);
+ostream& operator << (ostream& out, const Card& c);
 
 
 

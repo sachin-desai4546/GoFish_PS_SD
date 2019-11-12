@@ -46,9 +46,9 @@ public:
 
     //uses some strategy to choose one card from the player's
     //hand so they can say "Do you have a 4?"
-    Card chooseCardFromHand() const;
+    Card chooseCardFromHand();
 
-    //Does the player have the card c in her hand?
+    //Does the player have the card c in its hand?
     bool cardInHand(Card c) const;
 
     //Remove the card c from the hand and return it to the caller
@@ -65,7 +65,7 @@ public:
     //this function will check a players hand for a pair.
     //If a pair is found, it returns true and populates the two variables with the cards tha make the pair.
 
-    bool checkHandForPair(Card &c1, Card &c2);
+    //bool checkHandForPair(Card &c1, Card &c2);
 
     //OPTIONAL
     // comment out if you decide to not use it
@@ -79,6 +79,7 @@ private:
 
     vector <Card> myHand;
     vector <Card> myBook;
+    int myIndex;
 
     string myName;
 
